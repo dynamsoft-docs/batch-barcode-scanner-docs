@@ -1,0 +1,13 @@
+{
+  "CameraAndUITemplates": [
+    {
+      "ResultCountControl": 
+      {
+        "DisplayTotalCount": true,
+        "DisplayNewlyDecodedCount": true,
+        "PrimaryCountedBarcodeFormatId": "BF_DATAMATRIX",
+        "SecondaryCountedBarcodeFormatId": "BF_PDF417"
+      }
+    }
+  ]
+}
