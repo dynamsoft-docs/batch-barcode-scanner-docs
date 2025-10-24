@@ -11,14 +11,10 @@ noTitleIndex: false
 
 # Batch Barcode Scanner
 
-Introduction
-
-Manual
-Development
-Guide
-API References
-
-Parameters
-
-Useful Resources
-Release Notes
+- [Introduction](introduction.md)
+- Guide
+  - [Start Your First Scan]({{ site.bbs_ios }}guide/first-scan.html)
+  - [Get Your Scanner Customized]({{ site.bbs_ios }}guide/customization.html)
+  - [Operation Manual]({{ site.bbs_ios }}guide/manual.html)
+  - [Troubleshooting]({{ site.bbs_ios }}guide/trouble-shooting.html)
+- [Parameters]({{ site.bbs_parameters }})
