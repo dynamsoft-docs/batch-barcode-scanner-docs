@@ -1,8 +1,8 @@
 ---
 layout: search-layout
-title: MRZ Scanner Mobile Edition Documentation Search
-keywords: MRZ Scanner Mobile Edition Documentation Search
-h1: MRZ Scanner Mobile Edition Documentation Search
+title: Batch Barcode Scanner Mobile Edition Documentation Search
+keywords: Batch Barcode Scanner Mobile Edition Documentation Search
+h1: Batch Barcode Scanner Mobile Edition Documentation Search
 breadcrumbText: HomePage
-indexName: Crawler-MRZ-Docs
+indexName: Crawler-BBS-Docs
 ---
