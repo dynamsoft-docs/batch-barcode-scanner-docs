@@ -1,0 +1,37 @@
+repositoryUrl: https://github.com/dynamsoft-docs/batch-barcode-scanner-docs/blob/main
+repository: dynamsoft-docs/batch-barcode-scanner-docs
+docFullPath: https://www.dynamsoft.com/batch-barcode-scanner/docs/
+firstLevelUrl: /batch-barcode-scanner/docs/
+docHomePage: /batch-barcode-scanner/docs/
+searchIndexName: Crawler-BBS-Docs
+searchNeedFilter: true
+
+bbs_core: /batch-barcode-scanner/docs/
+bbs_parameters: /batch-barcode-scanner/docs/parameters/
+bbs_release_notes: /batch-barcode-scanner/
+bbs_license_activation: /batch-barcode-scanner/docs/
+bbs_cpp: /batch-barcode-scanner/docs/cplusplus/
+bbs_ios: /batch-barcode-scanner/docs/ios/
+bbs_js: /batch-barcode-scanner/docs/javascript/
+
+assets: /batch-barcode-scanner/docs/assets/
+edit_icon: /batch-barcode-scanner/docs/assets/img-icon/edit-icon.png
+smile_icon: /batch-barcode-scanner/docs/assets/img-icon/icon-smile.png
+sad_icon: /batch-barcode-scanner/docs/assets/img-icon/icon-sad.png
+# dbr_icon: /batch-barcode-scanner/docs/assets/img-icon/icon-dbr.svg
+# dwt_icon: /batch-barcode-scanner/docs/assets/img-icon/icon-dwt.svg
+# dnt_icon: /batch-barcode-scanner/docs/assets/img-icon/icon-dnt.svg
+
+useVersionTree: true
+isDCV: false
+
+baseurl: "/batch-barcode-scanner/docs/"
+plugins:
+  - jemoji
+  - jekyll-webp
+  - jekyll-relative-links
+  - jekyll-redirect-from
+  - jekyll-readme-index
+  - jekyll-seo-tag
+
+url: "https://www.dynamsoft.com" # sitemap root
