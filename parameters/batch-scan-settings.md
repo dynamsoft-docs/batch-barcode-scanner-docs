@@ -37,7 +37,7 @@ noTitleIndex: false
           },
           {
             "Status": null,
-            "HighlightColor": "",
+            "HighlightColor": "#9400D3",
             "LandmarkFilterConditionNames": ["1"]
           }
         ],
@@ -69,8 +69,21 @@ noTitleIndex: false
       },
       "SectionLayoutOptions": [
         {
-          "LayoutAnalysisMode" : "",
-          "MaxBarcodesCount": 100
+          "LayoutAnalysisMode": {
+            "Mode": "BBS_LAM_MATRIX",
+            "Axes": [
+              {
+                "IsEqualSpacing": 0,
+                "IsStaggering": 0,
+                "Angle": -1,
+                "Spacing": 0,
+                "MeasureUnit": 0,
+                "Dimension": -1
+              }
+            ]
+          },
+          "MaxBarcodesCount": 100,
+          "RepeatCount": 1
         }
       ],
       "MinLocalizedBarcodeConfidence": 100,
@@ -243,6 +256,18 @@ Defines the color of the barcodes with the specified status or filter conditions
 
 Defines the layout sections with their layout analysis mode and maximum number of barcodes.
 
+```json
+"SectionLayoutOptions": [
+  {
+    "LayoutAnalysisMode": {
+      "Mode": "BBS_LAM_MATRIX"
+    },
+    "MaxBarcodesCount": 100,
+    "RepeatCount": 1
+  }
+],
+```
+
 **Type**
 
 Array of SectionLayout objects.
@@ -250,22 +275,6 @@ Array of SectionLayout objects.
 **Default Value**
 
 null
-
-For example:
-
-```json
-"SectionLayoutOptions":
-[
-    {
-        "LayoutAnalysisMode" : "LAM_MATRIX",
-        "MaxBarcodeCount": 20
-    },
-    {
-        "LayoutAnalysisMode" : "LAM_LINE",
-        "MaxBarcodeCount": 16
-    }
-]
-```
 
 #### LayoutAnalysisMode
 
@@ -277,10 +286,10 @@ String
 
 **Range**
 
-- "LAM_SKIP"
-- "LAM_AUTO"
-- "LAM_LINE"
-- "LAM_MATRIX"
+- "BBS_LAM_SKIP"
+- "BBS_LAM_AUTO"
+- "BBS_LAM_LINE"
+- "BBS_LAM_MATRIX"
 
 #### MaxBarcodeCount
 
