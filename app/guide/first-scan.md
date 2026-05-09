@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Start Your First Scan - Dynamsoft Batch Barcode Scanner iOS Documents
+title: Start Your First Scan
 keywords: guide, first scan
 breadcrumbText: Start Your First Scan
 description: This page introduces how to perform a basic batch barcode scan.

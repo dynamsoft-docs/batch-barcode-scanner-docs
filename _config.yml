@@ -1,3 +1,4 @@
+title: Dynamsoft Batch Barcode Scanner Documentation
 repositoryUrl: https://github.com/dynamsoft-docs/batch-barcode-scanner-docs/blob/main
 repository: dynamsoft-docs/batch-barcode-scanner-docs
 docFullPath: https://www.dynamsoft.com/batch-barcode-scanner/docs/
@@ -7,6 +8,7 @@ searchIndexName: Crawler-BBS-Docs
 searchNeedFilter: true
 
 bbs_core: /batch-barcode-scanner/docs/
+bbs_app: /batch-barcode-scanner/docs/app/
 bbs_parameters: /batch-barcode-scanner/docs/parameters/
 bbs_release_notes: /batch-barcode-scanner/
 bbs_license_activation: /batch-barcode-scanner/docs/

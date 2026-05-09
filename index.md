@@ -1,6 +1,6 @@
 ---
 layout: home-page
-title: Dynamsoft Batch Barcode Scanner Documentation
+title: Index
 description: Dynamsoft Batch Barcode Scanner Documentation
 breadcrumbText: HomePage
 needAutoGenerateSidebar: true

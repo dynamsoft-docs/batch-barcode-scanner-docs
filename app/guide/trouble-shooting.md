@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Troubleshooting - Dynamsoft Batch Barcode Scanner iOS Documents
+title: Troubleshooting
 keywords: Troubleshooting, Errors
 breadcrumbText: Troubleshooting
 description: This page guide you on troubleshooting issues when using the Dynamsoft Batch Barcode Scanner APP.

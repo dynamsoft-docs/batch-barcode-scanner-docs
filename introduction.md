@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Introduction - Dynamsoft Batch Barcode Scanner
+title: Introduction
 keywords: Dynamsoft Batch Barcode Scanner, introduction
 breadcrumbText: Introduction
 description: Introduction of Dynamsoft Batch Barcode Scanner

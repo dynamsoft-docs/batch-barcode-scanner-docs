@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: CaptureVisionTemplate - Dynamsoft Batch Barcode Scanner
+title: CaptureVisionTemplate
 description: The CaptureVisionTemplate of Dynamsoft Batch Barcode Scanner
 needAutoGenerateSidebar: true
 needGenerateH3Content: true

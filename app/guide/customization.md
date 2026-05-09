@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Customization - Dynamsoft Batch Barcode Scanner iOS Documents
+title: Customization
 keywords: Customization
 breadcrumbText: Customization
 description: This demostrates how to get your scanner customized.
