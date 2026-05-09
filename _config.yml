@@ -35,3 +35,7 @@ plugins:
   - jekyll-seo-tag
 
 url: "https://www.dynamsoft.com" # sitemap root
+relative_links:
+  enabled:     true
+  collections: true
+  
