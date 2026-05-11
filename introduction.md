@@ -85,4 +85,4 @@ You can also get a custom demo based on your specific use case: [request a demo]
 
 ## Next
 
-Continue to read the guide to learn more how its usage.
+Continue to read the [guide](/app/guide/first-scan.md) to learn more how its usage.

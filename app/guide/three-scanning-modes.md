@@ -27,6 +27,9 @@ The app provides three core scanning modes, each tailored for different workflow
 
 We've introduced the usage of the FOV Mode. Let's learn how to use the two extra modes.
 
+> [!NOTE]  
+> The Scan & Snap and Panorama modes requires login.
+
 ## Scan & Snap
 
 When using the Scan & Snap mode, you need to capture a photo of the all the barcodes first and there should be some barcodes recognized in this photo.

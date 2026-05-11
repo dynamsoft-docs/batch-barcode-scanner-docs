@@ -13,7 +13,7 @@ noTitleIndex: false
 - [Introduction](introduction.md)
 - App Guide
   - [Start Your First Scan](/app/guide/first-scan.md)
+  - [Three Scanning Modes](/app/guide/three-scanning-modes.md)
   - [Get Your Scanner Customized](/app/guide/customization.md)
-  - [Operation Manual](/app/guide/three-modes.md)
-  - [Troubleshooting](/app/guide/trouble-shooting.md)
+  - [Troubleshooting](/app/guide/troubleshooting.md)
 - [Parameters](/parameters/index.md)

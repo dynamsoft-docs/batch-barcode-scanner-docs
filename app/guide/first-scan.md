@@ -52,7 +52,7 @@ Follow these steps to perform a basic batch barcode scan. We are using screensho
 
 ## More Scanning Modes
 
-Continue reading to learn other advanced scanning modes: [Three Scanning Modes](/app/guide/three-scanning-modes.md)
+Continue reading to learn other advanced scanning modes: [Three Scanning Modes](/app/guide/three-scanning-modes.md).
 
 
 
