@@ -30,4 +30,4 @@ jobs:
     with:
       doc-repo: batch-barcode-scanner-docs
       doc-url: batch-barcode-scanner/docs
-      secrets: inherit
+    secrets: inherit
