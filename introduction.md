@@ -49,7 +49,7 @@ If all the barcodes are recognized, we can finish scanning and export the result
 
 The app provides three core scanning modes, each tailored for different workflows:
 
-- **FOV (Field of View) Mode (Default)**
+- **Field of View (FOV) Scan Mode (Default)**
 
   Results are drawn on the final captured photo. The app highlights all successfully decoded barcodes directly on that image – perfect for post-scan verification.
 
@@ -57,7 +57,7 @@ The app provides three core scanning modes, each tailored for different workflow
 
   An improved version where a reference photo is taken beforehand. During the scanning process, only barcodes that exist within the pre-captured image are highlighted. Any codes appearing outside the original frame are ignored – ideal for fixed‑area inventory tracking.
 
-- **Panorama Mode**  
+- **Panorama Scan Mode**  
 
   A more advanced mode which stitches multiple photos into a single composite image. Best for codes extending beyond a single camera frame.
 
