@@ -16,6 +16,7 @@ noTitleIndex: false
   - [Three Scanning Modes](/app/guide/three-scanning-modes.md)
   - [Get Your Scanner Customized](/app/guide/customization.md)
   - [Troubleshooting](/app/guide/troubleshooting.md)
+  - [Extra Features](/app/guide/extra-features.md)
 - [Parameters](/parameters/index.md)
 - Release Notes
   - [iOS App](/app/release-notes/ios.md)

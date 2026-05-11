@@ -4,8 +4,8 @@ title: Start Your First Scan
 keywords: guide, first scan
 breadcrumbText: Start Your First Scan
 description: This page introduces how to perform a basic batch barcode scan.
-needAutoGenerateSidebar: true
-needGenerateH3Content: true
+needAutoGenerateSidebar: false
+needGenerateH3Content: false
 noTitleIndex: true
 ---
 
