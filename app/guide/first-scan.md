@@ -11,7 +11,7 @@ noTitleIndex: true
 
 # Start Your First Scan
 
-Follow these steps to perform a basic batch barcode scan.
+Follow these steps to perform a basic batch barcode scan. We are using screenshots on Android for illustration. The iOS version's usage is similar.
 
 1. Open your app and you will see the following page.
 
@@ -52,7 +52,7 @@ Follow these steps to perform a basic batch barcode scan.
 
 ## More Scanning Modes
 
-Continue reading to learn other advanced scanning modes: [Three Scanning Modes](/app/guide/three-modes.md)
+Continue reading to learn other advanced scanning modes: [Three Scanning Modes](/app/guide/three-scanning-modes.md)
 
 
 

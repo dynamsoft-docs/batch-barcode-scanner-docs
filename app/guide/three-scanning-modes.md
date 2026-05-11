@@ -45,3 +45,5 @@ There are some requirements for the Panorama mode:
 
 1. The barcodes have to be close with each other.
 2. There should be some duplicate recognition results of each photo. Otherwise, it cannot stitch the photos accurately.
+
+Read on to learn about more customization options: [Customization](/app/guide/customization.md).
