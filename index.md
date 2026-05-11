@@ -20,3 +20,4 @@ noTitleIndex: false
 - Release Notes
   - [iOS App](/app/release-notes/ios.md)
   - [Android App](/app/release-notes/android.md)
+- [FAQ](FAQ.md)

@@ -9,6 +9,8 @@ needGenerateH3Content: true
 noTitleIndex: true
 ---
 
+# iOS Release Notes
+
 ## 3.0.0 (05/21/2026)
 
 A brand new iOS version comes with three scanning modes.
