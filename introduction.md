@@ -59,7 +59,7 @@ The app provides three core scanning modes, each tailored for different workflow
 
 - **Panorama Mode**  
 
-  A more addvanced mode which stitches multiple photos into a single composite image. Best for codes extending beyond a single camera frame.
+  A more advanced mode which stitches multiple photos into a single composite image. Best for codes extending beyond a single camera frame.
 
 ## Extra Features
 

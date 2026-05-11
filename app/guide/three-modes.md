@@ -23,10 +23,25 @@ The app provides three core scanning modes, each tailored for different workflow
 
 - **Panorama Mode**  
 
-  A more addvanced mode which stitches multiple photos into a single composite image. Best for codes extending beyond a single camera frame.
+  A more advanced mode which stitches multiple photos into a single composite image. Best for codes extending beyond a single camera frame.
 
 We've introduced the usage of the FOV Mode. Let's learn how to use the two extra modes.
 
 ## Scan & Snap
 
+When using the Scan & Snap mode, you need to capture a photo of the all the barcodes first and there should be some barcodes recognized in this photo.
+
+Then, it works just like the FOV mode, except barcodes outside the photo taken will not be highlighted.
+
+![snap-and-scan](/assets/images/guide/snap-and-scan.jpg)
+
 ## Panorama
+
+When using the Panorama mode, you can take photos continuously to stitch images so that you can get a whole image of all the barcodes, which the default field of view cannot contain.
+
+![panorama](/assets/images/guide/panorama.jpg)
+
+There are some requirements for the Panorama mode:
+
+1. The barcodes have to be close with each other.
+2. There should be some duplicate recognition results of each photo. Otherwise, it cannot stitch the photos accurately.
