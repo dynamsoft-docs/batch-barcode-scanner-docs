@@ -13,52 +13,44 @@ noTitleIndex: true
 
 Follow these steps to perform a basic batch barcode scan.
 
-## 1. Log In
+1. Open your app and you will see the following page.
 
-A valid account is required to use the app.  
-If your account doesn’t have access to **Dynamsoft Batch Barcode Scanner**, or you don’t yet have an account, you can request one through the [demo request form](https://www.dynamsoft.com/use-cases/batch-barcode-scanning/#request-demo-form).
+   ![home](/assets/images/guide/home.jpg){:width="215"}
+   
+2. Enter Field of View (FOV) Scanning mode, press the shutter button to capture a photo to start scanning. It will show the decoding result of the photo captured. Press "Retake" to scan more barcodes.
+
+   ![fov start](/assets/images/guide/fov-start.jpg){:width="215"} ![fov initial result](/assets/images/guide/fov-initial-decoding-result.jpg){:width="215"}
+
+3. After pressing "Retake", the app will reenter the live capturing interface, with the previous decoding result displayed at the lower left. Barcodes recognized from camera frames will be highlighted.
+
+   ![fov live](/assets/images/guide/fov-live.jpg){:width="215"}
+
+   Barcodes would be highlighted in different colors:
+
+   * Already recognized: green.
+   * Newly recognized: light blue.
+
+4. Press the shutter button again. The app will take another photo and try decoding. The recognized barcodes (from the photo as well as camera frames) will be drawn on this last captured photo.
+
+   ![fov second decoding result](/assets/images/guide/fov-second-decoding-result.jpg){:width="215"}
+
+5. Press "Done" to enter the result viewing page. You can view the whole image with recognized barcodes, verify the result and save the result.
+
+   ![fov result](/assets/images/guide/fov-result.jpg){:width="215"}
 
 
-## 2. (Optional) Select a Scenario
+   There are many export options:
 
-If you have different customized scenarios, they will be displayed on the front page after logging in. After clicking the scenario you want to scan, you will be directed to the working page customized for this scenario.
-
-If customized scanning scenarios are available for your account, they will appear on the home screen after login.  
-Tap the desired scenario to open its dedicated scanning workspace.
-
-<div align="left">
-    <img src="assets/multi-scenarios.png" width="25%">
-</div>
-
-## 3. Start Scanning
-
-<div align="left">
-    <img src="assets/start.png" width="5%">
-</div>
-
-Tap the **`Start`** button to begin scanning. While scanning, you can:
-
-- Move the device to cover different areas.
-- Move closer to any barcode that isn’t recognized.
-
-<div align="left">
-    <img src="assets/stop.png" width="5%">
-</div>
-
-Tap the **`Stop`** button to pause scanning. When paused, you can:
-
-- Add images from the album to enhance the current scan results.
-- Tap **`Start`** again to resume.
+   * Save to local folder
+   * Save to OneDrive
+   * Share to third-party apps
 
 > [!NOTE]  
-> The **Add Image** and **Continue** features are not supported when using the AR camera.
+> The export feature requires login.
+
+## More Scanning Modes
+
+Continue reading to learn other advanced scanning modes: [Three Scanning Modes](/app/guide/three-modes.md)
 
 
-## 4. Finish Scanning
 
-When you’re done, you can:
-
-- **Export** – Save a CSV file of the results and a panoramic image.
-- **Save** – Store the current scan results for later viewing in **History**.
-- **View History** – Open previously saved results.
-- **Reset** – Clear the current session to start a new scan.
