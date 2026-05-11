@@ -21,11 +21,11 @@ Follow these steps to perform a basic batch barcode scan.
 
    ![fov start](/assets/images/guide/fov-start.jpg){:width="215"} ![fov initial result](/assets/images/guide/fov-initial-decoding-result.jpg){:width="215"}
 
-3. After pressing "Retake", the app will reenter the live capturing interface, with the previous decoding result displayed at the lower left. Barcodes recognized from camera frames will be highlighted.
+3. After pressing "Retake", the app will reenter the live capturing interface, with the previous decoding result displayed at the lower left.
 
    ![fov live](/assets/images/guide/fov-live.jpg){:width="215"}
 
-   Barcodes would be highlighted in different colors:
+   Barcodes will be highlighted in different colors:
 
    * Already recognized: green.
    * Newly recognized: light blue.
@@ -44,6 +44,8 @@ Follow these steps to perform a basic batch barcode scan.
    * Save to local folder
    * Save to OneDrive
    * Share to third-party apps
+
+   It saves the whole image and a CSV of barcode results.
 
 > [!NOTE]  
 > The export feature requires login.
