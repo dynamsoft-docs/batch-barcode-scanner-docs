@@ -11,126 +11,49 @@ noTitleIndex: true
 
 # Get Your Scanner Customized
 
-The scanning experience in **Dynamsoft Batch Barcode Scanner** is fully customizable. Below are common customization options and instructions on how to provide the necessary materials.
+The scanning experience in **Dynamsoft Batch Barcode Scanner** is fully customizable. Open the settings page, you can configure it in the following aspects:
 
-## 1. Device and Camera
+* Camera
+* Scanning
+* Barcode Reading
 
-Choosing the right device and camera configuration delivers a better scanning experience.
+Settings screenshots:
 
-- **AR Camera**  
-  - **Strengths**
-    - Delivers superior real-time **tracking** of decoded barcodes.
-    - Maintains high accuracy even when many **duplicate** barcodes are present.
-    - Produces high-quality panoramic images even in **sparse** barcode layouts.
-    - Achieves even greater accuracy when **LiDAR** is available.
-  - **Limitations**
-    - Restricted to the wide-angle lens, which may not focus at very close range.
-    - Does not support manual zoom or focus control.
+![Settings 1](/assets/images/guide/settings-1.jpg){:width="215"} ![Settings 2](/assets/images/guide/settings-2.jpg){:width="215"}
 
-- **DCE Camera**  
-  - **Strengths**
-    - Supports close-up scanning of **small barcodes** using the ultra-wide camera.
-    - Allows flexible **focusing** on different points of interest.
-    - Use **zoom-in** to approach instead of reducing the scan distance.
-  - **Limitations**
-    - Provides less stable tracking compared to the AR Camera.
-    - Less accurate when counting duplicate barcodes.
-    - May produce segmented panoramic images when barcodes are sparse.
+## Camera
 
-| Device Type / Features | iPad Pro | iPhone Pro (Max) | iPhone 13 and newer | iPhone 11, 12 | iPhone SE (16E) |
-| ----------- | -------- | ---------------- | ------------------- | ------------- | --------------- |
-| **AR Close-Distance Focus** | ✓ | ✕ | ✕ | ✓ | ✓ |
-| **AR 3840 × 2160 Resolution** | ✓ | ✓ | ✓ | ✓ | ✕ |
-| **LiDAR Support** | ✓ | ✓ | ✕ | ✕ | ✕ |
-| **Auto-Switch to Ultra-Wide Camera** | ✕ | ✓ | ✕ | ✕ | ✕ |
-| **High-Quality Ultra-Wide Camera** | ✓ | ✓ | ✕ | ✕ | ✕ |
+| Settings | Description |
+| --------- | ----------- |
+| Resolution | The resolution of the camera preview. |
+| Camera Type | Available for iOS, where you can select whether to use AR or the default camera with [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/overview/) (DCE). Using AR has a smoother tracking experience, but may have trouble scanning close objects or multi-plane objects.|
 
-> **Feature Details**
->
-> **AR Close-Distance Focus**  
-> Enables the AR camera to focus sharply at short range, enhancing detection of small or densely packed barcodes.  
-> Below is a reference table of the **minimum focus distance** (approximate) for supported devices:
->
-> | Device Model                     | Min Focus Distance |
-> |-----------------------------------|---------------------|
-> | iPhone 11                         | ~12cm |
-> | iPhone 11 Pro / Pro Max            | ~12cm |
-> | iPhone 12 / 12 Mini                | ~8 – 12cm |
-> | iPhone 12 Pro / 12 Pro Max         | ~8cm |
-> | iPhone 13 / 13 Mini                | ~15cm |
-> | iPhone 13 Pro / Pro Max            | ~15cm |
-> | iPhone 14 / 14 Plus                | ~20cm |
-> | iPhone 14 Pro / Pro Max            | ~20cm |
-> | iPhone 15 / 15 Plus                | ~20cm |
-> | iPhone 15 Pro / Pro Max            | ~20cm |
-> | iPhone 16e                         | ~12cm |
-> | iPhone 16 / 16 Plus                | ~20cm |
-> | iPhone 16 Pro                       | ~24cm |
-> | iPad Pro (2021 / 2022 / 2024)       | ~5cm |
->
-> *Tip:* Actual focusing distance can vary slightly depending on lighting conditions and individual device calibration.
->
-> **AR 3840 × 2160 Resolution**  
-> Enables high-resolution scanning, which captures finer barcode details and increases decoding accuracy—especially for tiny codes.
->
-> **LiDAR Support**  
-> Devices with a built-in LiDAR sensor provide depth information, giving the AR camera more reliable tracking and higher stitching accuracy.
->
-> **Auto-Switch to Ultra-Wide Camera**  
-> Automatically switches from the standard wide-angle lens to the ultra-wide lens when the main camera cannot focus at close range, helping maintain focus without manual intervention.
->
-> **High-Quality Ultra-Wide Camera**  
-> Some devices include an ultra-wide lens with superior optics. Using this lens improves clarity and barcode recognition when you need an extra-wide field of view or close-up focus.
+## Scanning
 
-## 2. Barcode Reading Performance
+| Settings | Description |
+| --------- | ----------- |
+| Scan Setting Name | The name of the scanning setting, which is used in the JSON template. |
+| Scan Region  | Specifies the scan region.  |
+| Stitch Level | Specifies how much effort to spend on stitching the images. |
+| Auto Stop | Whether to stop scanning automatically when certain conditions are reached, like barcode count. |
+| Layout | Specifies what layout analysis to enable. When enabled, it can highlight potential unrecognized barcodes based on layout. For example, a 20x20 grid. It is disabled by default. |
 
-Provide **original images** from your own scenarios so we can optimize decoding performance.
 
-**How to capture original images**
+## Barcode Reading
 
-1. Go to **Settings → More Settings → Debug Mode Settings** and enable **`Save Original Images`**.  
-2. Return to the scan page and scan as usual.  
-3. After scanning, the original images are stored in your photo album. Copy them to your desktop.  
-4. Zip the images and share the file with Dynamsoft.
+| Settings | Description |
+| --------- | ----------- |
+| Barcode Setting Name | The name of the barcode reading setting, which is used in the JSON template. |
+| Barcode Colour Options | Configure this to read inverted barcodes. |
+| Barcode Decode Level  | Preset templates to control how much effort to spend on decoding barcodeds.  |
+| Barcode Formats | Specifies what formats of barcode to read and output. |
+| Has Duplicate Barcodes | If disabled, it only outputs one of the many duplicate barcodes, which is suitable if one object has many barcodes with the same value. It is enabled by default. |
+| Min Localized Barcode Confidence | The minimum confidence level of the localized barcode. If the value is lower than 100, it will draw barcodes which haven't been recognized but localized on the result image. The default value is 100. |
 
-<div align="left">
-    <img src="assets/save-original-image.png" width="30%">
-</div>
+## Import and Export
 
-By default, the app captures images at **4K resolution (3840 × 2160)**.  
-If your barcodes are large enough and you want faster processing, you may capture **1080p** images instead.
+You can import and export the settings in JSON. The JSON template has more options and the settings specified with the UI has higher priority.
 
-**(Optional) Capture 1080p images**
+You can [contact support](mailto:support@dynamsoft.com) to specify the default template for your account.
 
-1. Go to **Settings → More Settings → Resolution** and select **1080p**.  
-2. Repeat the above steps to collect a new set of images.
-
-> [!NOTE]  
-> After collecting 1080p samples, remember to switch back to **4K** for normal scanning.
-
-## 3. Auto-Stop Conditions
-
-The scanner can stop automatically once specified conditions are met.  
-Available options include:
-
-- **Maximum barcode count reached**  
-- **No more results detected**  
-- **Layout analysis approved**
-
-> [!NOTE]  
-> Contact Dynamsoft if you need different or additional stop conditions.
-
-## 4. Result Output
-
-You can customize how scan results are presented:
-
-- Sort decoded barcodes with custom filter conditions.  
-- Adjust the highlight style in the panoramic image.  
-- Define the data fields included in the exported CSV file.
-
-## 5. Scanner UI
-
-Interface elements can also be tailored, such as:
-
-- Toolbar layout and appearance.  
-- Barcode highlight style on the camera view and the result-preview screen.
+Read the [parameters](/parameters/index.md) page to learn more about the JSON templates.
