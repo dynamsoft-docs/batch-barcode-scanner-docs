@@ -9,6 +9,8 @@ noTitleIndex: false
 
 # BatchBarcodeScanner Parameters
 
+You can learn about the parameters of Batch Barcode Scanner here. Normally you don't need to know the details about the parameters and [contact support](mailto:support@dynamsoft.com) for help. But it helps if you have knowledge about them.
+
 ## BatchScanTemplates Parameters
 
 | Parameter | Description |
