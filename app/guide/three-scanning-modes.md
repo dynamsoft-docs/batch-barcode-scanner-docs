@@ -36,13 +36,13 @@ When using the Scan & Snap mode, you need to capture a photo of the all the barc
 
 Then, it works just like the FOV mode, except barcodes outside the photo taken will not be highlighted.
 
-![snap-and-scan](/assets/images/guide/snap-and-scan.jpg)
+![snap-and-scan](/assets/images/guide/snap-and-scan.jpg){:width="215"}
 
 ## Panorama
 
 When using the Panorama mode, you can take photos continuously to stitch images so that you can get a whole image of all the barcodes, which the default field of view cannot contain.
 
-![panorama](/assets/images/guide/panorama.jpg)
+![panorama](/assets/images/guide/panorama.jpg){:width="215"}
 
 There are some requirements for the Panorama mode:
 
