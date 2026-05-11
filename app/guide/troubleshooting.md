@@ -40,14 +40,13 @@ When reporting performance problems or crashes, please provide the following:
 
 ### Capturing Original Images
 
-1. Go to **Settings → More Settings → Debug Mode Settings** and enable **`Save Original Images`**.  
+1. Go to **Settings → Debug** and enable **`Save Original Images`**.  
 2. Return to the scan page and perform a typical scan.  
 3. After scanning, the original images are saved to your photo album. Copy them to your desktop.  
 4. Compress (ZIP) the images and share the file with Dynamsoft.
 
-<div align="left">
-    <img src="assets/save-original-image.png" width="30%">
-</div>
+![Settings](/assets/images/guide/settings-2.jpg){:width="215"}
+
 
 If requested, you may also need to provide:
 
