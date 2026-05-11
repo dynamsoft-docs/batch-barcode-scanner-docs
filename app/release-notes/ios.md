@@ -1,11 +1,14 @@
 ---
 layout: default-layout
-title: Release of iOS App
-keywords: Customization
-breadcrumbText: Customization
-description: This demostrates how to get your scanner customized.
+title: Release Notes of iOS App
+keywords: Release Notes, iOS
+breadcrumbText: Release Notes of iOS App
+description: Release Notes of Dynamsoft Batch Barcode Scanner Android App
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
 ---
 
+## 3.0.0 (05/21/2026)
+
+A brand new iOS version comes with three scanning modes.

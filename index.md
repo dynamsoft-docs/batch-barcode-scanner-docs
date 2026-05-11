@@ -17,3 +17,6 @@ noTitleIndex: false
   - [Get Your Scanner Customized](/app/guide/customization.md)
   - [Troubleshooting](/app/guide/troubleshooting.md)
 - [Parameters](/parameters/index.md)
+- Release Notes
+  - [iOS App](/app/release-notes/ios.md)
+  - [Android App](/app/release-notes/android.md)

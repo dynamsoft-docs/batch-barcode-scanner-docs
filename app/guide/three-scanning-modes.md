@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: Three Scanning Modes
-keywords: guide, first scan
+keywords: guide, scanning mode
 breadcrumbText: Three Scanning Modes
 description: This page introduces how to perform a basic batch barcode scan.
 needAutoGenerateSidebar: true
