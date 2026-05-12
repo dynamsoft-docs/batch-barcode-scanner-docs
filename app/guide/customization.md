@@ -45,7 +45,7 @@ Settings screenshots:
 | --------- | ----------- |
 | Barcode Setting Name | The name of the barcode reading setting, which is used in the JSON template. |
 | Barcode Colour Options | Configure this to read inverted barcodes. |
-| Barcode Decode Level  | Preset templates to control how much effort to spend on decoding barcodeds.  |
+| Barcode Decode Level  | Preset templates to control how much effort to spend on decoding barcodes.  |
 | Barcode Formats | Specifies what formats of barcode to read and output. |
 | Has Duplicate Barcodes | If disabled, it only outputs one of the many duplicate barcodes, which is suitable if one object has many barcodes with the same value. It is enabled by default. |
 | Min Localized Barcode Confidence | The minimum confidence level of the localized barcode. If the value is lower than 100, it will draw barcodes which haven't been recognized but localized on the result image in red. The default value is 100. |

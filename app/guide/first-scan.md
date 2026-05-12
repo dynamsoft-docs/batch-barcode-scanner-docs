@@ -17,11 +17,11 @@ Follow these steps to perform a basic batch barcode scan. We are using screensho
 
    ![home](/assets/images/guide/home.jpg){:width="215"}
    
-2. Enter Field of View (FOV) Scanning mode, press the shutter button to capture a photo to start scanning. It will show the decoding result of the photo captured. Press "Retake" to scan more barcodes.
+2. Enter Field of View (FOV) scanning mode, press the shutter button to capture a photo and start scanning. The app will show the decoding result from the captured photo. Press "Retake" to scan more barcodes.
 
    ![fov start](/assets/images/guide/fov-start.jpg){:width="215"} ![fov initial result](/assets/images/guide/fov-initial-decoding-result.jpg){:width="215"}
 
-3. After pressing "Retake", the app will reenter the live capturing interface, with the previous decoding result displayed at the lower left.
+3. After pressing "Retake", the app will reenter the live capturing interface, with the previous decoding result displayed in the bottom‑left corner.
 
    ![fov live](/assets/images/guide/fov-live.jpg){:width="215"}
 
