@@ -17,7 +17,7 @@ The app provides three core scanning modes, each tailored for different workflow
 
   Results are drawn on the final captured photo. The app highlights all successfully decoded barcodes directly on that image – perfect for post-scan verification.
 
-- **Scan & Snap Mode**  
+- **Snap & Scan Mode**  
 
   An improved version where a reference photo is taken beforehand. During the scanning process, only barcodes that exist within the pre-captured image are highlighted. Any codes appearing outside the original frame are ignored – ideal for fixed‑area inventory tracking.
 
@@ -28,11 +28,11 @@ The app provides three core scanning modes, each tailored for different workflow
 We've introduced the usage of the FOV Mode. Let's learn how to use the two extra modes.
 
 > [!NOTE]  
-> The Scan & Snap and Panorama modes requires login.
+> The Snap & Scan and Panorama modes requires login.
 
-## Scan & Snap
+## Snap & Scan
 
-When using the Scan & Snap mode, you need to capture a photo of the all the barcodes first and there should be some barcodes recognized in this photo.
+When using the Snap & Scan mode, you need to capture a photo of the all the barcodes first and there should be some barcodes recognized in this photo.
 
 Then, it works just like the FOV mode, except barcodes outside the photo taken will not be highlighted.
 

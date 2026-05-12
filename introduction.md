@@ -53,7 +53,7 @@ The app provides three core scanning modes, each tailored for different workflow
 
   Results are drawn on the final captured photo. The app highlights all successfully decoded barcodes directly on that image – perfect for post-scan verification.
 
-- **Scan & Snap Mode**  
+- **Snap & Scan Mode**  
 
   An improved version where a reference photo is taken beforehand. During the scanning process, only barcodes that exist within the pre-captured image are highlighted. Any codes appearing outside the original frame are ignored – ideal for fixed‑area inventory tracking.
 
