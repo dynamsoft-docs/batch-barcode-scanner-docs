@@ -470,11 +470,6 @@ int
 
 100
 
-<!-- 
-### OutputLandmarkType
-
-目前是只支持Barcode -->
-
 ### PanoramicImageScalePercent
 
 Determines the scale down rate of the panoramic image. Measured by percentage.

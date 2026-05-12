@@ -20,7 +20,7 @@ You can learn about the parameters of Batch Barcode Scanner here. Normally you d
 | [`BarcodeFormatIds`](batch-scan-settings.md#barcodeformatids) | Defines which formats are output in the final result. |
 | [`ResultOutputSettings`](batch-scan-settings.md#resultoutputsettings) | Result output settings. |
 | [`SectionLayoutOptions`](batch-scan-settings.md#sectionlayoutoptions) | Defines the layout sections with their layout analysis mode and maximum number of barcodes. |
-| [`AutoStopOption`](batch-scan-settings.md#autostopoption) | Definds whether to stop scanning automatically and when to auto-stop. |
+| [`AutoStopOption`](batch-scan-settings.md#autostopoption) | Defines whether to stop scanning automatically and when to auto-stop. |
 | [`ARCorrectionLevel`](batch-scan-settings.md#arcorrectionlevel) | A higher level means the algorithm will spend more efforts on correcting the AR data. |
 | [`DuplicationCorrectionOption`](batch-scan-settings.md#duplicationcorrectionoption) | Determines how the algorithm deals with the duplicated barcodes. |
 | [`EnableOutputFrameMappedResult`](batch-scan-settings.md#enableoutputframemappedresult) | Whether to map the result coordinates from panoramic image to the video frame. |
