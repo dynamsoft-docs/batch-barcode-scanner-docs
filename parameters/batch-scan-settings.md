@@ -125,7 +125,7 @@ noTitleIndex: false
 | [`PanoramicImageScalePercent`](#panoramicimagescalepercent) | Determines the scale down rate of the panoramic image. Measured by percentage. |
 | [`PerspectiveLevel`](#perspectivelevel) | Determines how much efforts to spend on correcting the perspective. |
 | [`PreviewImageOption`](#previewimageoption) | Defines how the preview image is output. |
-| [`StitchLevel`](#stitchlevel) | Determines the how much effort to spend on stitching the video frames. |
+| [`StitchLevel`](#stitchlevel) | Determines how much effort to spend on stitching the video frames. |
 | [`StitchMode`](#stitchmode) | Determines the stitching mode. |
 | [`UniqueBarcodeFormatIds`](#uniquebarcodeformatids) | If there exist duplicated barcodes, this option will be used to determine which barcodes are unique. |
 
