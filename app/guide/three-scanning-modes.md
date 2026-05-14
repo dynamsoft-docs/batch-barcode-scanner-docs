@@ -34,7 +34,7 @@ We've introduced the usage of the FOV Mode. Let's learn how to use the two extra
 
 When using the Snap & Scan mode, you need to capture a photo of all the barcodes first and there should be some barcodes recognized in this photo.
 
-Then, it works just like the FOV mode, except barcodes outside the photo taken will not be highlighted.
+Then, it works just like the FOV mode, except barcodes outside the photo taken will not be highlighted and the current field of view will be highlighted in the photo taken.
 
 ![snap-and-scan](/assets/images/guide/snap-and-scan.jpg){:width="215"}
 
