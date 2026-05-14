@@ -9,7 +9,7 @@ noTitleIndex: false
 
 # Camera and UI Settings
 
-The camera and UI settings are also available under `CameraAndUITemplates`
+The camera and UI settings are available under `CameraAndUITemplates`.
 
 ```json
 {

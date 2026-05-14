@@ -9,6 +9,8 @@ noTitleIndex: false
 
 # Batch Scan Settings
 
+The batch scanning settings are available under `BatchScanTemplates`.
+
 ```json
 {
   "BatchScanTemplates": [
@@ -119,10 +121,8 @@ noTitleIndex: false
 | [`DuplicationCorrectionOption`](#duplicationcorrectionoption) | Determines how the algorithm deals with the duplicated barcodes. |
 | [`EnableOutputFrameMappedResult`](#enableoutputframemappedresult) | Whether to map the result coordinates from panoramic image to the video frame. |
 | [`EnableOutputPreviewPanorama`](#enableoutputpreviewpanorama) | Whether to enable result preview when scanning. |
-| [`EnableOutputResultImage`](#enableoutputresultimage) | Whether to save image data and generate panoramic image in the final result. |
 | [`MaxOverlappingFrames`](#maxoverlappingframes) | The maximum number of overlapping frames of TTLO mode. |
 | [`MinLocalizedBarcodeConfidence`](#minlocalizedbarcodeconfidence) | The minimum confidence level of the localized barcodes. |
-| [`PanoramicImageScalePercent`](#panoramicimagescalepercent) | Determines the scale down rate of the panoramic image. Measured by percentage. |
 | [`PerspectiveLevel`](#perspectivelevel) | Determines how much efforts to spend on correcting the perspective. |
 | [`PreviewImageOption`](#previewimageoption) | Defines how the preview image is output. |
 | [`StitchLevel`](#stitchlevel) | Determines how much effort to spend on stitching the video frames. |
@@ -420,22 +420,6 @@ int
 
 1
 
-### EnableOutputResultImage
-
-Whether to save image data and generate panoramic image in the final result.
-
-**Type**
-
-int
-
-**Range**
-
-[0,1]
-
-**Default Value**
-
-1
-
 ### MaxOverlappingFrames
 
 The maximum number of overlapping frames of TTLO mode.
@@ -469,25 +453,6 @@ int
 **Default Value**
 
 100
-
-### PanoramicImageScalePercent
-
-Determines the scale down rate of the panoramic image. Measured by percentage.
-
-**Type**
-
-int
-
-**Range**
-
-[0,100]
-
-> - 0 means auto.
-> - 100 means original size.
-
-**Default Value**
-
-0
 
 ### PerspectiveLevel
 
