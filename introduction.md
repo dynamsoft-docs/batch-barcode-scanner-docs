@@ -11,27 +11,17 @@ noTitleIndex: true
 
 # Introduction
 
-Batch Barcode Scanner is a cross-platform (Android & iOS) batch barcode scanning application designed for efficiency and accuracy in high-volume scanning scenarios. Unlike traditional single-frame decoders, our app leverages **multi-frame recognition fusion** to progressively build a complete picture of all codes in a scene with a great interactive experience.
+Dynamsoft Batch Barcode Scanner is a cross-platform (Android & iOS) batch barcode scanning application designed for efficiency and accuracy in high-volume scanning scenarios. Unlike traditional single-frame decoders, our app leverages **multi-frame recognition fusion** to progressively build a complete picture of all codes in a scene with a great interactive experience.
 
-It is suitable for scanning densely placed items like tubes in labs, boxes in inventories.
-
-For example, in the following screenshots, the tubes are in bad lighting condition, many of them cannot be recognized in one shot (unrecognized are in blue while recognized are in green).
-
-![Photo of tubes in bad lighting condition](/assets/images/introduction/photo-taken.jpg){:width="215"} ![Decoding result of one photo](/assets/images/introduction/one-time-decoding.jpg){:width="215"}
-
-You can move the phone closer to read more barcodes (newly recognized are in light blue).
-
-![Barcodes in colors](/assets/images/introduction/barcodes-in-colors.jpg){:width="215"}
-
-If all the barcodes are recognized, you can finish scanning and export the result.
-
-![Completed](/assets/images/introduction/completed.jpg){:width="215"}
-
-Using Batch Barcode Scanner, you can improve your barcode scanning workflow in the following aspects:
+It is suitable for scanning densely placed items like tubes in labs, boxes in inventories. Using Batch Barcode Scanner, you can improve your barcode scanning workflow in the following aspects:
 
 * Boost worker productivity
 * Reduce human errors
 * Handle challenging conditions
+
+Demo video:
+
+<video src="https://github.com/tony-xlh/misc/releases/download/assets/bbs-demo.mp4" controls style="height: 300px; max-width: 100%;"></video>
 
 
 ## How it Works
@@ -47,6 +37,18 @@ Using Batch Barcode Scanner, you can improve your barcode scanning workflow in t
    Batch Barcode Scanner uses a special algorithm based on recognized barcodes and augmented reality (AR) to map previously scanned results to the latest frame.
 
 * Draw recognition results on an image with the scanned objects for post-verification. Image stitching is supported if the camera cannot take one picture to cover all the objects.
+
+For example, in the following screenshots, the tubes are in bad lighting condition, many of them cannot be recognized in one shot (unrecognized are in blue while recognized are in green).
+
+![Photo of tubes in bad lighting condition](/assets/images/introduction/photo-taken.jpg){:width="215"} ![Decoding result of one photo](/assets/images/introduction/one-time-decoding.jpg){:width="215"}
+
+You can move the phone closer to read more barcodes (newly recognized are in light blue).
+
+![Barcodes in colors](/assets/images/introduction/barcodes-in-colors.jpg){:width="215"}
+
+If all the barcodes are recognized, you can finish scanning and export the result.
+
+![Completed](/assets/images/introduction/completed.jpg){:width="215"}
 
 ## Scanning Modes
 
