@@ -21,7 +21,7 @@ It is suitable for scanning densely placed items like tubes in labs, boxes in in
 
 Demo video:
 
-<video src="https://github.com/tony-xlh/misc/releases/download/assets/bbs-demo.mp4" controls style="height: 300px; max-width: 100%;"></video>
+<video src="https://github.com/tony-xlh/misc/releases/download/assets/bbs-demo.mp4" controls style="height: 360px; width: 100%;"></video>
 
 
 ## How it Works
