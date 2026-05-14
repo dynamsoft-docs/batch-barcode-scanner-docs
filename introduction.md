@@ -19,16 +19,19 @@ For example, in the following screenshots, the tubes are in bad lighting conditi
 
 ![Photo of tubes in bad lighting condition](/assets/images/introduction/photo-taken.jpg){:width="215"} ![Decoding result of one photo](/assets/images/introduction/one-time-decoding.jpg){:width="215"}
 
-We can move the phone closer to read more barcodes (newly recognized are in light blue).
+You can move the phone closer to read more barcodes (newly recognized are in light blue).
 
 ![Barcodes in colors](/assets/images/introduction/barcodes-in-colors.jpg){:width="215"}
 
-If all the barcodes are recognized, we can finish scanning and export the result.
+If all the barcodes are recognized, you can finish scanning and export the result.
 
 ![Completed](/assets/images/introduction/completed.jpg){:width="215"}
 
+Using Batch Barcode Scanner, you can improve your barcode scanning workflow in the following aspects:
 
-
+* Boost worker productivity
+* Reduce human errors
+* Handle challenging conditions
 
 
 ## How it Works
@@ -41,7 +44,7 @@ If all the barcodes are recognized, we can finish scanning and export the result
    * unrecognized barcodes
    * wanted barcodes 
    
-   Batch Barcode Scanner uses a special algorithm based on recognized barcodes and augmented reality to map previously scanned results to the latest frame.
+   Batch Barcode Scanner uses a special algorithm based on recognized barcodes and augmented reality (AR) to map previously scanned results to the latest frame.
 
 * Draw recognition results on an image with the scanned objects for post-verification. Image stitching is supported if the camera cannot take one picture to cover all the objects.
 
