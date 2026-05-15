@@ -60,6 +60,12 @@ Follow these steps to perform a basic batch barcode scan. We are using screensho
 | ![beep](/assets/images/guide/icon/beep.svg)                 | Beep after successful scanning. |
 | ![vibrate](/assets/images/guide/icon/vibrate.svg)           | Vibrate after successful scanning. |
 | ![settings](/assets/images/guide/icon/settings.svg)         | Go to settings page. |
+| ![add](/assets/images/guide/icon/add.svg)         | Import images and barcodes. |
+| ![refresh](/assets/images/guide/icon/refresh.svg)         | Start a new scanning. |
+| ![capture](/assets/images/guide/icon/capture.svg)         | Capture a photo for decoding. |
+| ![download](/assets/images/guide/icon/download.svg)         | Save the scanning result. |
+| ![results](/assets/images/guide/icon/results.svg)         | Go to the result page. |
+
 
 
 ## More Scanning Modes
