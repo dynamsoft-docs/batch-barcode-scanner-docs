@@ -33,7 +33,7 @@ Please contact us directly and include the error code.
 When reporting performance problems or crashes, please provide the following:
 
 - A **screen recording** that reproduces the issue.  
-  > Tip: Enable **Settings → More Settings → Debug Mode Settings → Display Memory Debug Info** during recording for more detail.
+  > Tip: Enable **Settings → Debug → Display Memory Debug Info** during recording for more detail.
 - Screenshots or a screen recording of the **current settings**.
 - **Debug images** captured during scanning.
 - **Device information** (model, OS version, available storage, etc.).
