@@ -56,7 +56,7 @@ Follow these steps to perform a basic batch barcode scan. We are using screensho
 | --------- | ----------- |
 | ![auto capture](/assets/images/guide/icon/auto_capture.svg) | Auto capture at fixed interval. |
 | ![wanted](/assets/images/guide/icon/wanted.svg)             | Set wanted barcodes. |
-| ![flashlight](/assets/images/guide/icon/flashlight.svg)     | Toggle flashlight. |
+| ![flashlight](/assets/images/guide/icon/flashlight.svg){:height="23"}{:width="24"}     | Toggle flashlight. |
 | ![beep](/assets/images/guide/icon/beep.svg)                 | Beep after successful scanning. |
 | ![vibrate](/assets/images/guide/icon/vibrate.svg)           | Vibrate after successful scanning. |
 | ![settings](/assets/images/guide/icon/settings.svg)         | Go to settings page. |
