@@ -11,7 +11,7 @@ noTitleIndex: true
 
 # Introduction
 
-Dynamsoft Batch Barcode Scanner is a cross-platform (Android & iOS) batch barcode scanning application designed for efficiency and accuracy in high-volume scanning scenarios. Unlike traditional single-frame decoders, our app leverages **multi-frame recognition fusion** to progressively build a complete picture of all codes in a scene with a great interactive experience.
+Dynamsoft Batch Barcode Scanner is a cross-platform (Android & iOS) batch barcode scanning application designed for efficiency and accuracy in high-volume scanning scenarios. Unlike traditional scanners that scan barcodes one at a time or using only one camera frame, our app continuously scan barcodes across multiple frames or photos to progressively build a complete picture of all codes in a scene with a great interactive experience.
 
 It is suitable for scanning densely placed items like lab tubes or inventory boxes. Using Batch Barcode Scanner, you can improve your barcode scanning workflow in the following aspects:
 
