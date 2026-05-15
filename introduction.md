@@ -13,11 +13,11 @@ noTitleIndex: true
 
 Dynamsoft Batch Barcode Scanner is a cross-platform (Android & iOS) batch barcode scanning application designed for efficiency and accuracy in high-volume scanning scenarios. Unlike traditional single-frame decoders, our app leverages **multi-frame recognition fusion** to progressively build a complete picture of all codes in a scene with a great interactive experience.
 
-It is suitable for scanning densely placed items like tubes in labs, boxes in inventories. Using Batch Barcode Scanner, you can improve your barcode scanning workflow in the following aspects:
+It is suitable for scanning densely placed items like lab tubes or inventory boxes. Using Batch Barcode Scanner, you can improve your barcode scanning workflow in the following aspects:
 
-* Boost worker productivity
-* Reduce human errors
-* Handle challenging conditions
+* Boost worker productivity with high scanning efficiency
+* Reduce human errors with visual feedback
+* Handle challenging conditions with 100% read rate
 
 Demo video:
 
@@ -26,8 +26,8 @@ Demo video:
 
 ## How it Works
 
-* Read barcodes from multiple photos taken and live camera frames until all the barcodes are recognized.
-* Highlight barcodes in different colors to help the user know which barcodes are left for scanning:
+* **Multi-frame recognition fusion**: Read barcodes from multiple photos taken and live camera frames until all the barcodes are recognized.
+* **Visual feedback**: Highlight barcodes in different colors to help the user know which barcodes are left for scanning:
    
    * recognized barcodes
    * newly recognized barcodes
@@ -36,9 +36,9 @@ Demo video:
    
    Batch Barcode Scanner uses a special algorithm based on recognized barcodes and augmented reality (AR) to map previously scanned results to the latest frame.
 
-* Draw recognition results on an image with the scanned objects for post-verification. Image stitching is supported if the camera cannot take one picture to cover all the objects.
+* **Result image for verification**: Draw recognition results on an image with the scanned objects for post-verification. Image stitching is supported if the camera cannot take one picture to cover all the objects.
 
-For example, in the following screenshots, the tubes are in bad lighting condition, many of them cannot be recognized in one shot (unrecognized are in blue while recognized are in green).
+**Example:** In the following screenshots, the tubes are in bad lighting condition, many of them cannot be recognized in one shot (unrecognized are in blue while recognized are in green).
 
 ![Photo of tubes in bad lighting condition](/assets/images/introduction/photo-taken.jpg){:width="215"} ![Decoding result of one photo](/assets/images/introduction/one-time-decoding.jpg){:width="215"}
 
