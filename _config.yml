@@ -5,7 +5,7 @@ docFullPath: https://www.dynamsoft.com/batch-barcode-scanner/docs/
 firstLevelUrl: /batch-barcode-scanner/docs/
 docHomePage: /batch-barcode-scanner/docs/
 searchIndexName: Crawler-BBS-Docs
-searchNeedFilter: true
+searchNeedFilter: false
 
 bbs_core: /batch-barcode-scanner/docs/
 bbs_app: /batch-barcode-scanner/docs/app/
