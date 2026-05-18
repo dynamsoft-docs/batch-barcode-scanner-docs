@@ -21,7 +21,7 @@ It is suitable for scanning densely placed items like lab tubes or inventory box
 
 Demo video:
 
-<video src="https://github.com/tony-xlh/misc/releases/download/assets/bbs-demo.mp4" controls style="height: 360px; width: 100%;"></video>
+<video src="https://github.com/dynamsoft-docs/batch-barcode-scanner-docs/releases/download/assets/FOV-mode-demo.mp4" controls style="height: 360px; width: 100%;"></video>
 
 
 ## How it Works
