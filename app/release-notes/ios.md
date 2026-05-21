@@ -15,3 +15,6 @@ noTitleIndex: true
 
 A brand new iOS version comes with three scanning modes.
 
+## 2.x
+
+iOS app with panorama scanning ability
