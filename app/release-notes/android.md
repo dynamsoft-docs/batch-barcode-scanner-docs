@@ -11,6 +11,6 @@ noTitleIndex: true
 
 # Android Release Notes
 
-## 3.0.0 (05/21/2026)
+## 3.0.0 (05/20/2026)
 
 Initial Android version.
