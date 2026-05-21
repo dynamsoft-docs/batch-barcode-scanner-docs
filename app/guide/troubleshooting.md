@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Troubleshooting - Dynamsoft Batch Barcode Scanner iOS Documents
+title: Troubleshooting
 keywords: Troubleshooting, Errors
 breadcrumbText: Troubleshooting
 description: This page guide you on troubleshooting issues when using the Dynamsoft Batch Barcode Scanner APP.
@@ -33,21 +33,20 @@ Please contact us directly and include the error code.
 When reporting performance problems or crashes, please provide the following:
 
 - A **screen recording** that reproduces the issue.  
-  > Tip: Enable **Settings → More Settings → Debug Mode Settings → Display Memory Debug Info** during recording for more detail.
+  > Tip: Enable **Settings → Debug → Display Memory Debug Info** during recording for more detail.
 - Screenshots or a screen recording of the **current settings**.
 - **Debug images** captured during scanning.
 - **Device information** (model, OS version, available storage, etc.).
 
 ### Capturing Original Images
 
-1. Go to **Settings → More Settings → Debug Mode Settings** and enable **`Save Original Images`**.  
+1. Go to **Settings → Debug** and enable **`Save Original Images`**.  
 2. Return to the scan page and perform a typical scan.  
 3. After scanning, the original images are saved to your photo album. Copy them to your desktop.  
 4. Compress (ZIP) the images and share the file with Dynamsoft.
 
-<div align="left">
-    <img src="assets/save-original-image.png" width="30%">
-</div>
+![Settings](/assets/images/guide/settings-2.jpg){:width="215"}
+
 
 If requested, you may also need to provide:
 
