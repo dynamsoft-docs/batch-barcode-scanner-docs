@@ -27,6 +27,7 @@ Settings screenshots:
 | --------- | ----------- |
 | Resolution | The resolution of the camera preview. |
 | Camera Type | Available for iOS, where you can select whether to use AR or the default camera with [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/overview/) (DCE). Using AR has a smoother tracking experience, but may have trouble scanning close objects or multi-plane objects. It is also recommend to use AR with a device having LiDAR for more accurate tracking.|
+| Enable Video Decoding | Enable video decoding to provide live visual feedback. The barcodes decoded from the live video can also be used for the final result. It is enabled by default. Turn off this to save battery. |
 
 ## Scanning
 
