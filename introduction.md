@@ -76,7 +76,7 @@ The app provides three core scanning modes, each tailored for different workflow
 
 The app works for the following systems:
 
-* iOS or iPadOS 15.0 or newer
+* iOS or iPadOS 15.0 or newer. LiDAR is recommended to use AR.
 * Android 5.0 or newer (arm64-v8a)
 
 ## Try Our Demo
