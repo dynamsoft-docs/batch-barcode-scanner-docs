@@ -26,7 +26,7 @@ Settings screenshots:
 | Settings | Description |
 | --------- | ----------- |
 | Resolution | The resolution of the camera preview. |
-| Camera Type | Available for iOS, where you can select whether to use AR or the default camera with [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/overview/) (DCE). Using AR has a smoother tracking experience, but may have trouble scanning close objects or multi-plane objects.|
+| Camera Type | Available for iOS, where you can select whether to use AR or the default camera with [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/overview/) (DCE). Using AR has a smoother tracking experience, but may have trouble scanning close objects or multi-plane objects. It is also recommend to use AR with a device having LiDAR for more accurate tracking.|
 
 ## Scanning
 
