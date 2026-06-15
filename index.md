@@ -21,4 +21,5 @@ noTitleIndex: false
 - Release Notes
   - [iOS App](/app/release-notes/ios.md)
   - [Android App](/app/release-notes/android.md)
+- [UI Reference](/app/ui-reference/index.md)
 - [FAQ](FAQ.md)
