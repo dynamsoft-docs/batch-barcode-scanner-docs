@@ -34,4 +34,5 @@ noTitleIndex: true
 | Green | Recognized barcodes |
 | Light blue | Newly recognized barcodes |
 | Orange | Unrecognized barcodes by layout analysis or barcode location detection|
+| Purple | Wanted barcodes |
 
