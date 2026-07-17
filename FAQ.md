@@ -14,7 +14,7 @@ noTitleIndex: true
 
 * What platforms does Batch Barcode Scanner support?
 
-   The core library is written C++. It can run on mobile/desktop/web. Please contact us if you are interested.
+   The core library is written in C++. It can run on mobile/desktop/web. Please contact us if you are interested.
 
 * Will there be an SDK version?
 
