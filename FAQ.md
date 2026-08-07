@@ -14,7 +14,7 @@ noTitleIndex: true
 
 * What platforms does Batch Barcode Scanner support?
 
-   The core library is written in C++. It can run on mobile/desktop/web. Please contact us if you are interested.
+   Currently, only Android and iOS are supported. If you would like to use it on desktop or web, please [contact support](support@dynamsoft.com).
 
 * Will there be an SDK version?
 
