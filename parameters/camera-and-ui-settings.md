@@ -36,7 +36,7 @@ The camera and UI settings are available under `CameraAndUITemplates`.
 | Parameter | Description |
 | --------- | ----------- |
 | [`Name`](#name) | The name of the template. |
-| [`CameraType`](#cameratype) | Specifies the camera for batch barcode scanning. It can be a AR camera or a physical camera. (Only valid for iOS) |
+| [`CameraType`](#cameratype) | Specifies the camera for batch barcode scanning. (Only valid for iOS) |
 | [`Resolution`](#resolution) | Specifies the resolution of the camera. |
 | [`ScanRegion`](#scanregion) | Specifies the scan region. It reduces the scan size to improve the speed and the accuracy. |
 | [`BatchScanTemplateName`](#batchscantemplatename) | Specifies the `BatchScanTemplate` object required by this template for batch scanning with its name. |
@@ -47,15 +47,11 @@ The name of the template.
 
 ### CameraType
 
-Specifies the camera for batch barcode scanning. It can be a AR camera or a physical camera. It is only valid for iOS.
+Specifies the camera for batch barcode scanning. It is only valid for iOS.
 
-- CMT_AR_PLANE_PROJECTION
-- CMT_AR_FRAME_TRACE
 - CMT_DCE_AUTO
 - CMT_DCE_ULTRA_WIDE
 - CMT_DCE_WIDE_ANGLE
-
-DCE Camera: Supports auto-switching between Wide-Angle and Ultra-Wide-Angle camera.
 
 ### Resolution
 
