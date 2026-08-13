@@ -11,7 +11,7 @@ noTitleIndex: true
 
 # iOS Release Notes
 
-## 3.0.0 coming soon
+## 3.0.1 (08/13/2026)
 
 A brand new iOS version comes with three scanning modes.
 

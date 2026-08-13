@@ -76,15 +76,15 @@ The app provides three core scanning modes, each tailored for different workflow
 
 The app works for the following systems:
 
-* iOS or iPadOS 15.0 or newer. LiDAR is recommended to use AR.
+* iOS or iPadOS 15.0 or newer.
 * Android 5.0 or newer (arm64-v8a)
 
 ## Try Our Demo
 
 You can download the app on app store:
 
-* [iOS](https://apps.apple.com/us/app/dynamsoftbatchbarcodescanner/id6751793075) (version 2.1.3)
-* [Android](https://play.google.com/store/apps/details?id=com.dynamsoft.bbs.app) (version 3.0.0)
+* [iOS](https://apps.apple.com/us/app/dynamsoftbatchbarcodescanner/id6751793075) (version 3.0.1)
+* [Android](https://play.google.com/store/apps/details?id=com.dynamsoft.bbs.app) (version 3.0.1)
 
 You can also get a custom demo based on your specific use case: [request a demo](https://www.dynamsoft.com/use-cases/batch-barcode-scanning/#request-demo-form).
 
