@@ -13,7 +13,7 @@ noTitleIndex: true
 
 ## 3.0.1 (08/13/2026)
 
-A brand new iOS version comes with three scanning modes.
+A brand new iOS version that comes with three scanning modes.
 
 ## 2.x
 
