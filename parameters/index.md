@@ -17,5 +17,5 @@ There are three types of parameters for Batch Barcode Scanner. They are defined 
 
 * [Parameters controlling the camera and UI](./camera-and-ui-settings.md)
 * [Parameters controlling the batch scanning process](./batch-scan-settings.md)
-* [Parameters controlling the barcode reading process](https://www.dynamsoft.com/barcode-reader/docs/core/parameters/structure-and-interfaces-of-parameters.html){:target="_blank"}
+* [Parameters controlling the barcode reading process](./capture-vision-settings.md)
 

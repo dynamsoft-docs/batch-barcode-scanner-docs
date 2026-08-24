@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: BatchScanTemplate
-description: The BatchScanTemplate of Dynamsoft Batch Barcode Scanner
+title: Batch Scan Settings
+description: The batch scan settings of Dynamsoft Batch Barcode Scanner
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: false

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: CameraAndUITemplate
-description: The CameraAndUITemplate of Dynamsoft Batch Barcode Scanner
+title: Camera and UI Settings
+description: The camera and UI settings of Dynamsoft Batch Barcode Scanner
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: false
