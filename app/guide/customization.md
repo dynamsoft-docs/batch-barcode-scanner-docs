@@ -57,4 +57,8 @@ You can import and export the settings in JSON. The JSON template has more optio
 
 You can [contact support](mailto:support@dynamsoft.com) to specify the default template for your account.
 
+After the templates are set for your account, you can select which template (scenario) to use on home page.
+
+![scenario](/assets/images/guide/scenario.jpg){:width="215"}
+
 Read the [parameters](/parameters/index.md) page to learn more about the JSON templates.
