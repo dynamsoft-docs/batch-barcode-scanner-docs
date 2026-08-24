@@ -25,7 +25,7 @@ The camera and UI settings are available under `CameraAndUITemplates`.
           "ScanRegionBottom": 100
       },
       "Resolution": "RESOLUTION_1080P",
-      "BatchScanTemplateName": "BST_Stardard"
+      "BatchScanTemplateName": "BST_Default"
     }
   ]
 }

@@ -17,90 +17,33 @@ The batch scanning settings are available under `BatchScanTemplates`.
     {
       "Name": "BST_Default",
       "CaptureVisionTemplateName": "CVT_Default",
-      "BarcodeFormatIds": [
-        "BF_ALL"
-      ],
-      "BarcodeTextRegExPattern": "",
-      "ResultOutputSettings": 
+      "ResultOutputSettings" :
       {
-        "LandmarkHighlightOptions": 
+        "LandmarkHighlightOptions" :
         [
           {
-            "Status": "RecognizedUnique",
-            "HighlightColor": "green"
+            "HighlightColor" : "red",
+            "Status" : "RecognizedUnique"
           },
           {
-            "Status": "RecognizedDuplicate",
-            "HighlightColor": "red"
+            "HighlightColor" : "green",
+            "Status" : "RecognizedDuplicate"
           },
           {
-            "Status": "RecognizedNonTarget",
-            "HighlightColor": "orange",
+            "HighlightColor" : "blue",
+            "Status" : "RecognizedNonTarget"
           },
           {
-            "Status": null,
-            "HighlightColor": "#9400D3",
-            "LandmarkFilterConditionNames": ["1"]
+            "HighlightColor" : "black",
+            "Status" : "LocatedByBarcodeReader"
+          },
+          {
+            "HighlightColor" : "white",
+            "Status" : "LocatedByLayout"
           }
-        ],
-        "LandmarkFilterConditions":
-        [
-          {
-            "Name": "1",
-            "BarcodeFormatIds": ["BF_DATAMATRIX"],
-            "BarcodeTextRegExPattern": ""
-          }
-        ],
-        "CSVOption": {
-          "IncludeTitles": ["INDEX", "BARCODE_TEXT", "BARCODE_FORMAT", "STATUS", "LOCATION"],
-        }
-      },
-      "ARCorrectionLevel": 4,
-      "AutoStopOption": {
-        "AutoStopMode": null,
-        "CheckFramesCount": 8
-      },
-      "PanoramicImageScalePercent": 0,
-      "EnableOutputFrameMappedResult": 1,
-      "EnableOutputPreviewPanorama": 1,
-      "EnableOutputResultImage": 1,
-      "MaxOverlappingFrames": -1,
-      "DuplicationCorrectionOption": {
-        "DuplicateBarcodeInterval": 4,
-        "HasDuplicateBarcodes": 1
-      },
-      "SectionLayoutOptions": [
-        {
-          "LayoutAnalysisMode": {
-            "Mode": "BBS_LAM_MATRIX",
-            "Axes": [
-              {
-                "IsEqualSpacing": 0,
-                "IsStaggering": 0,
-                "Angle": -1,
-                "Spacing": 0,
-                "MeasureUnit": 0,
-                "Dimension": -1
-              }
-            ]
-          },
-          "MaxBarcodesCount": 100,
-          "RepeatCount": 1
-        }
-      ],
-      "MinLocalizedBarcodeConfidence": 100,
-      "OutputLandmarkTypes": [
-        "LT_BARCODE"
-      ],
-      "PerspectiveLevel": 5,
-      "PreviewImageOption": {
-        "MaxVisibleLength": 0,
-        "ScaleRatio": 20
-      },
-      "StitchLevel": 0,
-      "StitchMode": 0,
-      "ThreadManagementMode": 1,
-      "UniqueBarcodeFormatIds": null
+        ]
+      }
+
     }
   ]
 }
