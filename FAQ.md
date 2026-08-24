@@ -20,4 +20,6 @@ noTitleIndex: true
 
    Currently, we only provide apps. An SDK version is not planned for now.
 
+* How can I integrate Batch Barcode Scanner in my own workflow?
 
+   You can export the scanned result to the local file system or a cloud platform or via system sharing so that your own application can get the data.
