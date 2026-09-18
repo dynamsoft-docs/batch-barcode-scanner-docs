@@ -71,7 +71,7 @@ The app provides three core scanning modes, each tailored for different workflow
 - **Watchlist** – Highlight specific barcode values you are looking for, making target identification instant.
 - **Result Editing** – Edit scanned results manually to solve edge cases.
 - **Search** – Quickly locate barcodes and history scans via text search.
-- **Export Results** – Save scan data as CSV files, share via email, messaging apps, or cloud storage.
+- **Export Results** – Save scan data as CSV and image files, share via email, messaging apps, or cloud storage. The output can be customized with custom JavaScript. 
 - **Customizable Settings** – Adjust image processing parameters, camera settings, desired barcode formats, colors of barcodes, and more.
 
 ## System Requirements
