@@ -45,7 +45,7 @@ The scanning experience in **Dynamsoft Batch Barcode Scanner** is fully customiz
 | Barcode Decode Level  | Preset templates to control how much effort to spend on decoding barcodes.  |
 | Barcode Formats | Specifies what formats of barcode to read and output. |
 | Duplicate Filter | If enabled, it only outputs one of the many duplicate barcodes, which is suitable if one object has many barcodes with the same value. It is disabled by default. |
-| Min Localized Barcode Confidence | The minimum confidence level of the localized barcode. If the value is lower than 100, it will draw barcodes which haven't been recognized but localized on the result image in red. The default value is 100. |
+| Min Localized Barcode Confidence | The minimum confidence level of the localized barcode. If the value is lower than 100, it will draw barcodes which haven't been recognized but localized on the result image in orange. The default value is 100. |
 
 ## Upload
 
