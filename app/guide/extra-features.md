@@ -46,12 +46,12 @@ There are three types of barcode status.
 * Not decoded
 * Excluded (exclude all the barcodes in the barcode area)
 
-![Result editing](/assets/images/guide/result-editing.jpg)
+![Result editing](/assets/images/guide/result-editing.jpg){:width="215"}
 
 ## Search
 
 You can search in the result list via barcode values and search in the history list via barcode values, date and scenarios.
 
 
-![search](/assets/images/guide/search.jpg)
+![search](/assets/images/guide/search.jpg){:width="215"}
 
