@@ -12,14 +12,17 @@ noTitleIndex: true
 
 There are extra features for different use cases.
 
-## Wanted Barcodes
+## Watchlist
 
-Currently, the main extra feature is to specify wanted barcodes.
+Put special barcodes in the watchlist and highlight them in a different color when live scanning.
 
-In the live scanning interface, you can specify barcodes via manual input, selecting decoded barcodes on an image, etc.
+In the camera interface, you can specify barcodes via manual input, selecting decoded barcodes on an image, etc.
 
-![setting wanted](/assets/images/guide/setting-wanted.jpg){:width="215"}
 
-In the scanning result, the wanted barcodes will be marked in purple.
+![watchlist hint](/assets/images/guide/watchlist-hint.jpg){:width="215"}
+
+![setting watchlist](/assets/images/guide/setting-watchlist.jpg){:width="215"}
+
+In the scanning result, the watched barcodes will be marked in purple.
 
 ![found wanted](/assets/images/guide/found-wanted.jpg){:width="215"}

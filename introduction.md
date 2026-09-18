@@ -32,7 +32,7 @@ Demo video:
    * recognized barcodes
    * newly recognized barcodes
    * unrecognized barcodes
-   * wanted barcodes 
+   * special barcodes marked in a watchlist
    
    Batch Barcode Scanner uses a special algorithm based on recognized barcodes and augmented reality (AR) to map previously scanned results to the latest frame.
 
@@ -68,7 +68,7 @@ The app provides three core scanning modes, each tailored for different workflow
 
 ## Extra Features
 
-- **Wanted Barcode** – Highlight specific barcode values you are looking for, making target identification instant.
+- **Watchlist** – Highlight specific barcode values you are looking for, making target identification instant.
 - **Export Results** – Save scan data as CSV files, share via email, messaging apps, or cloud storage.
 - **Customizable Settings** – Adjust image processing parameters, camera settings, desired barcode formats, colors of barcodes, and more.
 

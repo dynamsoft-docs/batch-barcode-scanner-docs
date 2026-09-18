@@ -16,7 +16,7 @@ noTitleIndex: true
 | Icon | Description |
 | --------- | ----------- |
 | ![auto capture](/assets/images/guide/icon/auto_capture.svg) | Auto capture at fixed interval. |
-| ![wanted](/assets/images/guide/icon/wanted.svg)             | Set wanted barcodes. |
+| ![watchlist](/assets/images/guide/icon/watchlist.svg)             | Set barcodes in the watchlist. |
 | ![flashlight](/assets/images/guide/icon/flashlight.svg){:height="23"}{:width="24"}     | Toggle flashlight. |
 | ![beep](/assets/images/guide/icon/beep.svg)                 | Beep after successful scanning. |
 | ![vibrate](/assets/images/guide/icon/vibrate.svg)           | Vibrate after successful scanning. |
@@ -34,5 +34,5 @@ noTitleIndex: true
 | Green | Recognized barcodes |
 | Light blue | Newly recognized barcodes |
 | Orange | Unrecognized barcodes by layout analysis or barcode location detection|
-| Purple | Wanted barcodes |
+| Purple | Barcodes in watchlist |
 
