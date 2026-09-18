@@ -34,7 +34,7 @@ Follow these steps to perform a basic batch barcode scan. We are using screensho
 
    ![fov second decoding result](/assets/images/guide/fov-second-decoding-result.jpg){:width="215"}
 
-5. Press "Done" to enter the result viewing page. You can view the whole image with recognized barcodes, verify the result and save the result.
+5. Press "Done" to enter the result viewing page. You can view the whole image with recognized barcodes, edit, verify and save the result.
 
    ![fov result](/assets/images/guide/fov-result.jpg){:width="215"}
 
