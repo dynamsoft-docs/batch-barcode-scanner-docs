@@ -47,3 +47,11 @@ There are three types of barcode status.
 * Excluded (exclude all the barcodes in the barcode area)
 
 ![Result editing](/assets/images/guide/result-editing.jpg)
+
+## Search
+
+You can search in the result list via barcode values and search in the history list via barcode values, date and scenarios.
+
+
+![search](/assets/images/guide/search.jpg)
+
