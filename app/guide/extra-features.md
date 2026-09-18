@@ -27,6 +27,8 @@ In the scanning result, the watched barcodes will be marked in purple.
 
 ![found wanted](/assets/images/guide/found-wanted.jpg){:width="215"}
 
+It is useful to scan and find barcode items.
+
 ## Result Editing
 
 You can add, edit and delete barcodes in the result.
