@@ -26,3 +26,22 @@ In the camera interface, you can specify barcodes via manual input, selecting de
 In the scanning result, the watched barcodes will be marked in purple.
 
 ![found wanted](/assets/images/guide/found-wanted.jpg){:width="215"}
+
+## Result Editing
+
+You can add, edit and delete barcodes in the result.
+
+You can modify the following barcode properties:
+
+* Barcode format
+* Barcode value
+* Barcode location
+* Barcode status
+
+There are three barcode status.
+
+* Decoded
+* Not decoded
+* Excluded (exclude all the barcodes in the barcode area)
+
+![Result editing](/assets/images/guide/result-editing.jpg)
