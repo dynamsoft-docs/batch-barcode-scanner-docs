@@ -38,7 +38,7 @@ You can modify the following barcode properties:
 * Barcode location
 * Barcode status
 
-There are three barcode status.
+There are three types of barcode status.
 
 * Decoded
 * Not decoded
