@@ -86,7 +86,7 @@ The app works for the following systems:
 You can download the app on app store:
 
 * [iOS](https://apps.apple.com/us/app/dynamsoftbatchbarcodescanner/id6751793075) (version 3.0.1)
-* [Android](https://play.google.com/store/apps/details?id=com.dynamsoft.bbs.app) (version 3.0.1)
+* [Android](https://play.google.com/store/apps/details?id=com.dynamsoft.bbs.app) (version 3.1.0)
 
 You can also get a custom demo based on your specific use case: [request a demo](https://www.dynamsoft.com/use-cases/batch-barcode-scanning/#request-demo-form).
 
