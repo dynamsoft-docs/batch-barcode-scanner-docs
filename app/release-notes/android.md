@@ -24,9 +24,8 @@ noTitleIndex: true
 * Renamed Wanted Barcode to Watchlist.
 * Allowed the default OneDrive upload folder to be specified other than `BBS`.
 * Allowed the default format to be unknown when entering barcodes manually.
+* Updated Dynamsoft Barcode Reader SDK.
 * Improved UI text.
-
-
 
 ## 3.0.1 (06/16/2026)
 
