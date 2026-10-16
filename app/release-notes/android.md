@@ -11,6 +11,10 @@ noTitleIndex: true
 
 # Android Release Notes
 
+## 3.1.1 (10/16/2026)
+
+Fixed the parsing of `ScanRegion` in JSON templates.
+
 ## 3.1.0 (09/22/2026)
 
 **New Features:**
